@@ -1,23 +1,27 @@
 # NLP-Data-Cleaning-Task
-We explore the use of regular expressions to clean input text in support of a downstream task.
+We explore the use of regular expressions to clean input text in support of a downstream task found [here](https://github.com/Leen-Alzebdeh/NLP-LMs).
 
-- Input data: [Child Language Data Exchange System (CHILDES Talkbank)](https://childes.talkbank.org/)
+## Data
+Input data: [Child Language Data Exchange System (CHILDES Talkbank)](https://childes.talkbank.org/)
 
-   The data contains transcripts from oral language that represent the language that young children are exposed to in everyday settings. The data is stored in .cha files.
-   ```NLP-Data-Cleaning-Task/
-   ├─ Data/
-   │  ├─ Bates
-   │  │  ├─ Free20
-   │  │  │  ├─ amy.cha
-   │  │  │  ├─ betty.cha
-   │  │  │  ├─ (more files)
-   │  │  ├─ (more directories)
-   │  ├─ (more directories)```
+The data contains transcripts from oral language that represent the language that young children are exposed to in everyday settings. The data is stored in .cha files.
+```
+NLP-Data-Cleaning-Task/
+├─ Data/
+│  ├─ Bates
+│  │  ├─ Free20
+│  │  │  ├─ amy.cha
+│  │  │  ├─ betty.cha
+│  │  │  ├─ (more files)
+│  │  ├─ (more directories)
+│  ├─ (more directories)
+```
 
+## Tasks
 
-- The first task will be to **clean** the files:
+### Task 1: clean the files:
    - Convert the files to raw text and remove both the header and extraneous information. Extraneous information is any information that is not needed to support the downstream task.
-- The second task will be to **transform** the files:
+### Task 2:  transform the files:
    - You will transform the data so that it uses ArpaBET to represent the sounds that the text maps to. We use[ CMU's Pronunciation Dictionary](https://www.google.com/url?q=http://www.speech.cs.cmu.edu/cgi-bin/cmudict&sa=D&source=docs&ust=1703650680785817&usg=AOvVaw2B2-NioT8l2i6wmOWx3Cwk) to inform this transformation.
 
 # Report 
