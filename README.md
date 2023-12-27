@@ -1,8 +1,18 @@
 # NLP-Data-Cleaning-Task
 We explore the use of regular expressions to clean input text in support of a downstream task.
 
-Input data: [Child Language Data Exchange System (CHILDES Talkbank)](https://childes.talkbank.org/)
-The data contains transcripts from oral language that represent the language that young children are exposed to in everyday settings. The data is stored in .cha files. 
+- Input data: [Child Language Data Exchange System (CHILDES Talkbank)](https://childes.talkbank.org/)
+   The data contains transcripts from oral language that represent the language that young children are exposed to in everyday settings. The data is stored in .cha files.
+   NLP-Data-Cleaning-Task/
+   ├─ Data/
+   │  ├─ Bates
+   │  │  ├─ Free20
+   │  │  │  ├─ amy.cha
+   │  │  │  ├─ betty.cha
+   │  │  │  ├─ (more files)
+   │  │  ├─ (more directories)
+   │  ├─ (more directories)
+
 
 - The first task will be to **clean** the files:
    - Convert the files to raw text and remove both the header and extraneous information. Extraneous information is any information that is not needed to support the downstream task.
@@ -45,7 +55,8 @@ We run this project using standard Python libraries re (regex), random, and os.
 
 To run this project:
 1. Ensure Python is installed, as well as the Python Standard Library. 
-3. Clone the repository.
+2. Clone the repository.
+3. Ensure you have CHILDES input data in the format outlined above and in a directory 'Data/' 
 4. Run the main.py file (no parameters needed).
    Run this command
    ```bash
