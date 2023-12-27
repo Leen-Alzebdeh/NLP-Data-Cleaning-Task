@@ -51,7 +51,7 @@ GitHub Copilot
 
 We run this project using standard Python libraries re (regex), random, and os.
 
-### Instructions to execute code
+# Instructions to execute code
 
 
 To run this project:
