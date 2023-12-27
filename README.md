@@ -25,7 +25,7 @@ NLP-Data-Cleaning-Task/
    - You will transform the data so that it uses ArpaBET to represent the sounds that the text maps to. We use[ CMU's Pronunciation Dictionary](https://www.google.com/url?q=http://www.speech.cs.cmu.edu/cgi-bin/cmudict&sa=D&source=docs&ust=1703650680785817&usg=AOvVaw2B2-NioT8l2i6wmOWx3Cwk) to inform this transformation.
 
 # Report 
-Further details and justifications can be found [here](https://github.com/Leen-Alzebdeh/NLP-Data-Cleaning-Task/blob/main/justifications.md)
+Further details and justifications can be found [here](https://github.com/Leen-Alzebdeh/NLP-Data-Cleaning-Task/blob/main/REPORT.md)
 
 # Contributors
 
