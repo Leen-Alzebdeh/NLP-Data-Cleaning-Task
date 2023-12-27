@@ -45,5 +45,6 @@ Clean files can be found within the clean/ directory found in root.
 
 Transformed files can be found within the transformed/ directory found in root.
 
-### [Report](https://github.com/Leen-Alzebdeh/NLP-Data-Cleaning-Task/blob/main/justifications.md)
+# Report 
+Can be found [here](https://github.com/Leen-Alzebdeh/NLP-Data-Cleaning-Task/blob/main/justifications.md)
 
