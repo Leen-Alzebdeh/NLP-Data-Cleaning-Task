@@ -68,7 +68,7 @@ To run this project:
    python3 src/main.py
    ```
 
-Clean files can be found within the clean/ directory found in root.
+Clean files can be found within the `clean/` directory found in root.
 
-Transformed files can be found within the transformed/ directory found in root.
+Transformed files can be found within the `transformed/` directory found in root.
 
