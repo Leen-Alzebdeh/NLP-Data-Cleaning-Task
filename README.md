@@ -29,9 +29,9 @@ Further details and justifications can be found [here](https://github.com/Leen-A
 
 # Contributors
 
-Leen Alzebdeh (ccid:alzebdeh)
+Leen Alzebdeh  @Leen-Alzebdeh
 
-Sukhnoor Khehra (ccid:skhehra)
+Sukhnoor Khehra @Sukhnoor-K
 
 # Resources Consulted
 
